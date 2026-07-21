@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useRef } from 'react'
 import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
@@ -27,6 +28,12 @@ export default function Footer() {
     }
   }
 
+=======
+import { motion } from 'framer-motion'
+import './Footer.css'
+
+export default function Footer() {
+>>>>>>> 71594543fe94d5b17c9ef0eeb97950848b0977fe
   return (
     <footer className="footer">
       <motion.div
@@ -35,6 +42,7 @@ export default function Footer() {
         viewport={{ once: true }}
         transition={{ duration: 1 }}
       >
+<<<<<<< HEAD
         <div
           className="footer-heart"
           onClick={handleHeartTap}
@@ -44,6 +52,9 @@ export default function Footer() {
         >
           ♥
         </div>
+=======
+        <div className="footer-heart">♥</div>
+>>>>>>> 71594543fe94d5b17c9ef0eeb97950848b0977fe
         <p className="footer-text">
           صُمم بكل حب لـ <span className="footer-name">هاجر</span>
         </p>

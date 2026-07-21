@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { useState, useEffect } from 'react'
 import { Routes, Route, useNavigate } from 'react-router-dom'
+=======
+import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
+>>>>>>> 71594543fe94d5b17c9ef0eeb97950848b0977fe
 import AuroraBackground from './components/AuroraBackground'
 import FloatingHearts from './components/FloatingHearts'
 import PasswordGate from './components/PasswordGate'
@@ -19,6 +24,7 @@ import AdminDashboard from './admin/AdminDashboard'
 
 function LoveSite() {
   const [unlocked, setUnlocked] = useState(false)
+<<<<<<< HEAD
   const navigate = useNavigate()
 
   // اختصار سري للدخول على لوحة التحكم: Ctrl + Shift + A
@@ -32,6 +38,8 @@ function LoveSite() {
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [navigate])
+=======
+>>>>>>> 71594543fe94d5b17c9ef0eeb97950848b0977fe
 
   if (!unlocked) {
     return <PasswordGate onUnlock={() => setUnlocked(true)} />
