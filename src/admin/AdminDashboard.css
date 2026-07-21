@@ -1,0 +1,160 @@
+.admin-loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0a0a14;
+  color: #fde2ed;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.admin-dashboard {
+  min-height: 100vh;
+  background: #0a0a14;
+  color: #fde2ed;
+  font-family: 'Tajawal', sans-serif;
+  padding: 24px 20px 80px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.admin-header h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 26px;
+}
+
+.admin-logout-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 192, 203, 0.25);
+  color: #fde2ed;
+  border-radius: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.admin-toast {
+  background: rgba(236, 72, 153, 0.2);
+  border: 1px solid rgba(236, 72, 153, 0.4);
+  border-radius: 10px;
+  padding: 10px 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.admin-section {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 192, 203, 0.15);
+  border-radius: 18px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.admin-section h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.admin-upload-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #ec4899, #a855f7);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.admin-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+}
+
+.admin-photo-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 192, 203, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-photo-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.admin-photo-card input {
+  background: transparent;
+  border: none;
+  border-top: 1px solid rgba(255, 192, 203, 0.15);
+  color: #fde2ed;
+  padding: 8px;
+  font-size: 12px;
+  outline: none;
+}
+
+.admin-delete-btn {
+  background: rgba(248, 113, 113, 0.15);
+  color: #f87171;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.admin-empty {
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.admin-audio-preview {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.admin-current-password {
+  margin-bottom: 12px;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.admin-password-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.admin-password-form input {
+  flex: 1;
+  min-width: 180px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 192, 203, 0.25);
+  border-radius: 10px;
+  padding: 10px 14px;
+  color: #fde2ed;
+  outline: none;
+}
+
+.admin-password-form button {
+  background: linear-gradient(90deg, #ec4899, #a855f7);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
