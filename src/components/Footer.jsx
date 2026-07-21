@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> cc97b21b62ce3fe03b0edcd7229f35f7b1615be3
 import { useRef } from 'react'
 import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
@@ -27,6 +31,15 @@ export default function Footer() {
     }
   }
 
+<<<<<<< HEAD
+=======
+=======
+import { motion } from 'framer-motion'
+import './Footer.css'
+
+export default function Footer() {
+>>>>>>> 71594543fe94d5b17c9ef0eeb97950848b0977fe
+>>>>>>> cc97b21b62ce3fe03b0edcd7229f35f7b1615be3
   return (
     <footer className="footer">
       <motion.div
@@ -35,6 +48,10 @@ export default function Footer() {
         viewport={{ once: true }}
         transition={{ duration: 1 }}
       >
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> cc97b21b62ce3fe03b0edcd7229f35f7b1615be3
         <div
           className="footer-heart"
           onClick={handleHeartTap}
@@ -44,6 +61,12 @@ export default function Footer() {
         >
           ♥
         </div>
+<<<<<<< HEAD
+=======
+=======
+        <div className="footer-heart">♥</div>
+>>>>>>> 71594543fe94d5b17c9ef0eeb97950848b0977fe
+>>>>>>> cc97b21b62ce3fe03b0edcd7229f35f7b1615be3
         <p className="footer-text">
           صُمم بكل حب لـ <span className="footer-name">هاجر</span>
         </p>
